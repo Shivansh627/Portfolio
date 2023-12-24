@@ -1,0 +1,61 @@
+@media screen and (max-width:1200px) {
+    nav{
+        display: none;
+    }
+    #mobile{
+        display: flex;
+    }
+    #home{
+        margin-bottom: 2rem;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(assets/img/hero-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:right;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #profile{
+        margin-top: 30rem;
+        margin-bottom: 10rem;
+        width: 100vw;
+        /* display: flex; */
+        /* flex-direction: column; */
+        overflow: hidden;
+    }
+    .profile{
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+    }
+    .profile_text{
+        margin-top: 10vw;
+        text-align: center;
+    }
+    .pic-con img{
+        width: 40vw;
+    }
+    .education{
+    
+        width: 50vw;
+        height: 30vh;
+        margin-left: 50px;
+    
+    }
+    .education img{
+        width: 2vw;
+    }
+    .edu1{
+        font-size: medium;
+        margin-left: 2vw;
+    }
+    .edu{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+    
+}

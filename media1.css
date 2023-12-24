@@ -1,0 +1,119 @@
+@media screen and (max-width:450px) {
+    nav{
+        display: none;
+    }
+    #mobile{
+        display: flex;
+    }
+    /* home page */
+    #home{
+        margin-bottom: 2rem;
+        width: 10
+        0vw;
+        height: 100vh;
+        background-image: url(assets/img/hero-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:right;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .name{
+        font-size: 35px;
+    }
+
+    /* profile */
+    #profile{
+        margin-top: 30rem;
+        margin-bottom: 10rem;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile_text{
+        margin-top: 60px;
+    }
+    .profile_text{
+        text-align: center;
+    }
+    .pic-con img{
+        width: 80vw;
+    }
+    .education{
+        width: 60vw;
+        height: 40vh;
+        margin-left: 50px;
+    }
+    .education img{
+        width: 30px;
+    }
+    .edu1{
+        font-size: small;
+    }
+
+    /* skills page*/
+    #skills{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+    }
+    .dev{
+        margin-left: -20px;
+        width: 64vw;
+        height: 70vh;
+        padding: 10px 20px;
+    }
+    .skhe {
+        text-align: center;
+        /* font-size: x-large; */
+    }
+
+    /* projects */
+    #project{
+        /* width: 100vw; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .prhe{
+        margin-bottom: 50px;
+        /* text-align: center; */
+    }
+    .p-con{
+        margin-left: -5vw;
+        width: 55vw;
+        height: 50vh;
+    }
+    .btn{
+        z-index: 1000;
+    }
+
+    /* contact */
+    #contact{
+        margin-bottom: 10vh;
+    }
+    .contact img{
+        width: 25px;
+    }
+
+    /* footer */
+    footer{
+       margin-top: 10vh;
+
+        display: inline;
+        text-align: center;
+    }
+}
